@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            display: inline-block;
+            width: 40%;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        article {
+            flex-basis: 55%;
+        }
+
+        aside {
+            flex-basis: 45%;
+        }
+
+        #submit-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        down {
+            flex-basis: 45%;
+        }
+
+        /* Section */
+    #submit {
+        background-color: #f8f8f8;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    #submit h2 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    #submit form {
+        margin-top: 10px;
+    }
+
+    #submit label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    #submit input[type="text"],
+    #submit input[type="email"],
+    #submit textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    #submit textarea {
+        resize: vertical;
+    }
+
+    #submit input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #submit input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Element Selector */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Class Selector */
+        .header {
+            border-bottom: 2px solid #ccc;
+        }
+
+        /* ID Selector */
+        #main-content {
+            background-color: #f4f4f4;
+        }
+
+        #submit-content {
+            background-color: #f4f4f4;
+        }
+
+        /* Attribute Selector */
+        a[href="#"] {
+            color: #999;
+        }
+
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* CSS Float */
+        article {
+            float: left;
+            margin-right: 20px;
+        }
+
+        aside {
+            float: right;
+            margin-left: 20px;
+        }
+
+        /* Display, Padding, Margin, and Border */
+        article {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        aside {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        down {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            float: none; 
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>WELCOME TO BUNNY HOME</h1>
+        <h2>We are dedicated to finding loving homes for rabbits in need.</h2>
+        <nav>
+            <ul>
+                <li><a href="#main-content">About Us</a></li>
+                <li><a href="#main-content">Adoption</a></li>
+                <li><a href="#submit-content">Submit</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section id="main-content">
+        <article>
+            <h2>About Us</h2>
+            <p>
+               <h4>VISI : </h4>
+                Menjadi pusat adopsi kelinci terkemuka yang berkomitmen untuk menyediakan rumah yang penuh cinta dan perhatian bagi setiap kelinci yang membutuhkan, serta menjadi sumber daya utama untuk pendidikan dan dukungan bagi pemilik kelinci di seluruh komunitas. <br>
+                <h4>MISI : </h4>
+                1. Menyediakan rumah yang aman, nyaman, dan penuh kasih bagi kelinci yang membutuhkan adopsi, dengan memastikan bahwa setiap kelinci ditempatkan di lingkungan yang sesuai dengan kebutuhan dan keunikan mereka. <br>
+                2. Mengedukasi masyarakat tentang kebutuhan perawatan kelinci, termasuk pemeliharaan harian, kesehatan, dan kebutuhan lingkungan, agar setiap kelinci dapat hidup sehat dan bahagia di rumah barunya. <br>
+                3. Memberikan dukungan dan bimbingan kepada pemilik kelinci, baik yang baru maupun yang sudah berpengalaman, melalui penyediaan sumber daya informatif, konsultasi, dan layanan pasca-adopsi.
+            </p>
+        </article>
+        <aside>
+            <h2>Adoption</h2>
+            <p>Jika Anda tertarik untuk mengadopsi kelinci, silakan lihat daftar kelinci yang tersedia di bawah ini:</p>
+                <div class="rabbit-card">
+                    <img src="netherland dwarf.jpg" alt="Kelinci 1" height="200px" width="200px">
+                    <h3>Netherland Dwarf</h3>
+                    <p>Age: 2 tahun</p>
+                    <p>Color: Ash Brown</p>
+                </div>
+
+                <div class="rabbit-card">
+                    <img src="holland lop bunny.jpg" alt="Kelinci 2" height="200px" width="200px">
+                    <h3>Holland Lop Bunny</h3>
+                    <p>Age: 1.5 tahun</p>
+                    <p>Color: Grey And White</p>
+                </div>
+
+                <div class="rabbit-card">
+                    <img src="kelinci eropa.jpg" alt="Kelinci 3" height="200px" width="200px">
+                    <h3>Fuzzy lop Amerika</h3>
+                    <p>Age: 1.5 tahun</p>
+                    <p>Color: Brown</p>
+                </div>
+
+                <div class="rabbit-card">
+                    <img src="kelinci pygmy.jpg" alt="Kelinci 4" height="200px" width="200px">
+                    <h3>Pygmy Rabbit</h3>
+                    <p>Age: 1.5 tahun</p>
+                    <p>Color: Grey</p>
+                </div>
+
+                <div class="rabbit-card">
+                    <img src="fuzzy lop amerika.jpg" alt="Kelinci 5" height="200px" width="200px">
+                    <h3>Eropa Rabbit</h3>
+                    <p>Age: 1.5 tahun</p>
+                    <p>Color: White and Brown</p>
+                </div>
+
+                <div class="rabbit-card">
+                    <img src="cashmere lop bunny.jpg" alt="Kelinci 5" height="200px" width="200px">
+                    <h3>Cashmere Lop Bunny</h3>
+                    <p>Age: 1.5 tahun</p>
+                    <p>Color: Brown And White</p>
+                </div>
+        </aside>
+        
+    </section>
+
+    <section id="submit-content">
+        <down>
+            <section id="submit">
+                <h2>Submit For Adopt</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+    </down>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
